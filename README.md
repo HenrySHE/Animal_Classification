@@ -21,4 +21,8 @@
 Reasoning:
 - The training data has too much noise
 
+**2018/12/15**
+- Finish do the data augmentation (see file img_aug_success.py)
+- Build a simple neural network for training (but the validation accuracy is changing a lot during the training) (see the Training.ipynb)
+
 
