@@ -26,7 +26,7 @@ Reasoning:
 - Build a simple neural network for training (but the validation accuracy is changing a lot during the training) (see the Training.ipynb)
 
 **2018/12/16**
-- Uploading the `Training.ipynb` and `Testing_animal.ipynb`, and the weight and the model structure are also saved in this repository. Just edit the image path of the `Testing_animal.ipynb` can get the result.
+- Uploading the `Training.ipynb` and `Testing_animal.ipynb`, and the weight and the model structure are also saved in this repository. Just edit the image path of the `Testing_animal.ipynb` can get the result. And it is able to classify 3 types of animal, DC,WP and EAP.
 - I forget to add the image resize function in the `Testing_animal.ipynb` file, and the test image format should be (65,65,3) format.
 
 Problems:
