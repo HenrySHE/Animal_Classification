@@ -25,4 +25,11 @@ Reasoning:
 - Finish do the data augmentation (see file img_aug_success.py)
 - Build a simple neural network for training (but the validation accuracy is changing a lot during the training) (see the Training.ipynb)
 
+**2018/12/16**
+- Uploading the `Training.ipynb` and `Testing_animal.ipynb`, and the weight and the model structure are also saved in this repository. Just edit the image path of the `Testing_animal.ipynb` can get the result.
+- I forget to add the image resize function in the `Testing_animal.ipynb` file, and the test image format should be (65,65,3) format.
 
+Problems:
+- The data of DC is not clear enough, so there is some problem when judging DC. The rest of two can reach 95% accuracy or above.
+- Still need to add the sliding window to the program.
+- Add function allow passing paremeters when calling the `.py` file.
