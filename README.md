@@ -33,3 +33,6 @@ Problems:
 - The data of DC is not clear enough, so there is some problem when judging DC. The rest of two can reach 95% accuracy or above.
 - Still need to add the sliding window to the program.
 - Add function allow passing paremeters when calling the `.py` file.
+
+**2018/12/17**
+- Upload `Bgsub_18-12-17.py` and it is a background subtraction file, used to do background subtraction, still have some problems. I added a threshold when doing background subtraction, and it shows that when the threshold=60 the performance is the best, when the countour is smaller than 25000, it will be ignored, and still need to find a good way to combine the contours for object dections.
