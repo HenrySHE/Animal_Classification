@@ -36,3 +36,14 @@ Problems:
 
 **2018/12/17**
 - Upload `Bgsub_18-12-17.py` and it is a background subtraction file, used to do background subtraction, still have some problems. I added a threshold when doing background subtraction, and it shows that when the threshold=60 the performance is the best, when the countour is smaller than 25000, it will be ignored, and still need to find a good way to combine the contours for object dections.
+
+**2018/12/18**
+- Upload `nms.py`, means `non maximal suppression` a method to combine the similar bounding boxing technique (worked)
+- Upload `Bgsub_18-12-18.py` and it has the following updates:
+    1. Be able to find the close moving object and capture and save to local folder;
+    2. Enlarge the detected bounding box for 50 pixels (larger can achieve more accurate result)
+
+@To-Do List    
+  1. 应该需要准备多一个识别背景的category
+  2. 做一个让用户选择画面的程序，然后自动识别写入（找如何让用户随意选择一个frame)
+    2.1. 写入视频的时候，每个视频有一个独立的ID，需要检查是否已经存在，存在的话，同一物种+1，否则减一
