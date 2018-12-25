@@ -44,6 +44,9 @@ Problems:
     2. Enlarge the detected bounding box for 50 pixels (larger can achieve more accurate result)
 
 @To-Do List    
-  1. 应该需要准备多一个识别背景的category
+  1. ~~应该需要准备多一个识别背景的category~~
   2. 做一个让用户选择画面的程序，然后自动识别写入（找如何让用户随意选择一个frame)
     2.1. 写入视频的时候，每个视频有一个独立的ID，需要检查是否已经存在，存在的话，同一物种+1，否则减一
+
+**2018/12/25**
+1. Write `bg_gen.py` for generating the background categories
