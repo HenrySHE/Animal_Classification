@@ -50,3 +50,13 @@ Problems:
 
 **2018/12/25**
 1. Write `bg_gen.py` for generating the background categories
+
+
+
+**2019/1/2** (Happy New Year)
+1. Upload folder `1-2` and combine the detection and the background subtraction part, be able to detect animal, for those probability lower then 50% will marked as a unknown, and telling user to judge it manully.
+2. Prepare the insallation requirements : `requirements.txt`
+
+To-Do list:
+- Letting user to define the video path (or folder).
+- Writting the data as csv file part need to be implemented.
