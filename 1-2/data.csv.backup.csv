@@ -1,0 +1,6 @@
+Video_name,Month,Date,Species,Abundance,Starting_Time,Ending_Time,Activity_Hour,Second_Hour,Activity_Time(Sec),Remarkable_Behavior,Good_Shot?,Remarks
+IMAG2095.AVI,October,2017-10-09,WP,1,13:58:14,13:58:44,13,-,30,-,Y
+IMAG2096.AVI,October,2017-10-09,WP,1,13:59:42,14:00:12,13,14,30,-,Y
+IMAG2124.AVI,November,2017-11-11,DC,1,11:00:02,11:00:32,11,-,30,-,N
+RCNX0032.MP4,January,2018-01-11,EAP,1,15:56:26,15:56:34,15,-,8,-,Y
+RCNX0057.MP4,February,2018-02-07,DC,1,14:09:56,14:10:05,14,-,9,-,Y
