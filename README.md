@@ -60,3 +60,10 @@ Problems:
 To-Do list:
 - Letting user to define the video path (or folder).
 - Writting the data as csv file part need to be implemented.
+
+
+**2019/1/4**
+1. Add `Bgsub_19-1-4(multiple_vid).py` and `Bgsub_19-1-4(single_vid).py` both of them are able to read video (including in `MP4` format and `AVI` format. 
+2. User need to specify the video path before executing the animal detection. and need to add `/` at the end of the file path (e.g. `path/to/your/videos/`) otherwise the program will not read any videos and terminate itself.
+3. Still got some problem when detection the background.
+4. The accuracy need to be improved.
