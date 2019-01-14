@@ -43,14 +43,9 @@ Problems:
     1. Be able to find the close moving object and capture and save to local folder;
     2. Enlarge the detected bounding box for 50 pixels (larger can achieve more accurate result)
 
-@To-Do List    
-  1. ~~应该需要准备多一个识别背景的category~~
-  2. 做一个让用户选择画面的程序，然后自动识别写入（找如何让用户随意选择一个frame)
-    2.1. 写入视频的时候，每个视频有一个独立的ID，需要检查是否已经存在，存在的话，同一物种+1，否则减一
 
 **2018/12/25**
 1. Write `bg_gen.py` for generating the background categories
-
 
 
 **2019/1/2** (Happy New Year)
@@ -67,3 +62,8 @@ To-Do list:
 2. User need to specify the video path before executing the animal detection. and need to add `/` at the end of the file path (e.g. `path/to/your/videos/`) otherwise the program will not read any videos and terminate itself.
 3. Still got some problem when detection the background.
 4. The accuracy need to be improved.
+
+**2019/1/14**
+1. Update the 1-14 version code, correct the timing problem (the older version have timing problem), and I changed the method of using time method, now it can show the correct time information.
+2. Upload the `h5` file, it add another categories called `other` the training data is including `MPC` and also `FB` if the over 70% of recognition belongs to `other`, then it might belongs to `other` categories.
+
