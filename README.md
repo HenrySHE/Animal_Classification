@@ -66,4 +66,5 @@ To-Do list:
 **2019/1/14**
 1. Update the 1-14 version code, correct the timing problem (the older version have timing problem), and I changed the method of using time method, now it can show the correct time information.
 2. Upload the `h5` file, it add another categories called `other` the training data is including `MPC` and also `FB` if the over 70% of recognition belongs to `other`, then it might belongs to `other` categories.
+3. Upload `requirement.txt` in folder `1-21`, to install the package please type `pip install -r requirement.txt` and it will intall the related packages automatically. (*pay attention that you need to go to the folder of the requirement.txt and execute the command*)
 
