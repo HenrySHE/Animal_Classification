@@ -68,3 +68,9 @@ To-Do list:
 2. Upload the `h5` file, it add another categories called `other` the training data is including `MPC` and also `FB` if the over 70% of recognition belongs to `other`, then it might belongs to `other` categories.
 3. Upload `requirement.txt` in folder `1-21`, to install the package please type `pip install -r requirement.txt` and it will intall the related packages automatically. (*pay attention that you need to go to the folder of the requirement.txt and execute the command*)
 
+
+**2019/3/21**
+1. Upload file `Bgsub_19-3-21(Updated Version).py` and it deletes useless columns (including `Remarkable Behavior`, `Good Shot?` and `Remarks` and add a column `Probability`.
+2. Round the probability into 2 decimal point.
+3. Correct the time problem, get the video edit time as the `Ending Time` of that video, and the `Starting Time` is calculated according to the `Ending Time` (By using the number of frames and FPS to calculate the time length of that video), and save to CSV
+4. Upload the new CSV file to the folder, using that CSV file to store the new data. (Just simply replace the old CSV file with this one)
